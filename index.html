@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Remove Comments</title>
+</head>
+
+<body>
+    <div class="bio">Remove Comments from your codes....</div>
+    <div class="mainContainer">
+        <div class="childDiv">
+            <textarea id="sqlCode" placeholder="Enter SQL code here..." cols="30" rows="30" ></textarea>
+            <div class="removeBtn" onclick="removeComments()">Remove</div>
+        </div>
+        <div class="childDiv">
+            <textarea id="myText" placeholder="Removed Code..." cols="30"  rows="30"></textarea>
+            <div class="clearBtn" onclick="copyContent()">Copy</div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
